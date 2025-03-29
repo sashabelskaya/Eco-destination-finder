@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Destination Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="eco-destination-finder">
+        <h2>Find Your Eco-Friendly Destination</h2>
+        
+        <label for="budget">Budget (USD):</label>
+        <input type="number" id="budget" placeholder="Enter your budget" required><br><br>
+
+        <label for="season">Preferred Season:</label>
+        <select id="season">
+            <option value="winter">Winter</option>
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+            <option value="fall">Fall</option>
+        </select><br><br>
+
+        <label for="distance">Preferred Travel Distance:</label>
+        <select id="distance">
+            <option value="local">Local</option>
+            <option value="international">International</option>
+        </select><br><br>
+
+        <label for="eco-preference">Eco-Friendly Options:</label>
+        <select id="eco-preference">
+            <option value="yes">Yes, I prefer eco-friendly destinations</option>
+            <option value="no">No preference</option>
+        </select><br><br>
+
+        <label for="activity">Preferred Activity:</label>
+        <select id="activity">
+            <option value="nature">Nature Tours</option>
+            <option value="culture">Cultural Experiences</option>
+            <option value="adventure">Adventure</option>
+            <option value="beach">Beach Relaxation</option>
+        </select><br><br>
+
+        <button id="findButton">Find My Eco Destination</button>
+
+        <h3 id="result"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
